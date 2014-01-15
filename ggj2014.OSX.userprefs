@@ -1,0 +1,13 @@
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="15-1-2014 12:16:28">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ggj2014.Core/Block.cs">
+    <Files>
+      <File FileName="ggj2014.OSX/Main.cs" Line="33" Column="17" />
+      <File FileName="ggj2014.Core/Block.cs" Line="3" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
