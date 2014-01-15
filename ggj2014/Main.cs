@@ -4,7 +4,7 @@ using System.Linq;
 using MonoMac.AppKit;
 using MonoMac.Foundation;
 
-namespace ggj2014
+namespace XNA
 {
 	static class Program
 	{
@@ -26,11 +26,11 @@ namespace ggj2014
 
 	class AppDelegate : NSApplicationDelegate
 	{
-		Game game;
+		FlakcoreGame game;
 
 		public override void FinishedLaunching (MonoMac.Foundation.NSObject notification)
 		{
-			game = new Game ();
+			game = new FlakcoreGame ();
 			game.Run ();
 		}
 

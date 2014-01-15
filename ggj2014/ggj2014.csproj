@@ -5,12 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{62E270FF-D304-4008-A63D-C61D71A9A884}</ProjectGuid>
+    <ProjectGuid>{5B8A017E-F0D8-4603-A2D1-F2803E0752F4}</ProjectGuid>
     <ProjectTypeGuids>{948B3504-5B70-4649-8FE4-BDE1FB46EC69};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ggj2014</RootNamespace>
+    <RootNamespace>XNA</RootNamespace>
     <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
-    <AssemblyName>ggj2014</AssemblyName>
+    <AssemblyName>XNA</AssemblyName>
+    <SuppressXamMacUpsell>True</SuppressXamMacUpsell>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,21 +67,37 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="MonoMac" />
-    <Reference Include="MonoGame.Framework" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\Git Repositories\Flakcore\libs\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="C3.XNA.Primitives2D">
+      <HintPath>C3.XNA.Primitives2D.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GameState.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="FlakcoreGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
+    <None Include="Content\effect.fx" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Content\logo.png" />
+    <BundleResource Include="Content\fonts\bigFont.spritefont" />
+    <BundleResource Include="Content\fonts\DefaultFont.spritefont" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Content\fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\particle.xml" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Flakcore\FlakCore.csproj">
       <Project>{C6F44C26-5F93-4714-9CB6-239348FE6FE2}</Project>
