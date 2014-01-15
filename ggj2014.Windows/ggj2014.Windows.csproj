@@ -35,12 +35,7 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Block.cs" />
-    <Compile Include="FlakcoreGame.cs" />
-    <Compile Include="Game1.cs" />
-    <Compile Include="GameState.cs" />
     <Compile Include="Main.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,10 +56,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\..\..\..\..\..\..\..\Program Files %28x86%29\MonoGame\v3.0\Assemblies\WindowsGL\SDL.dll">
-      <Link>SDL.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Content\effect.fx" />
     <Content Include="Content\logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -74,9 +65,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Flakcore\FlakCore.csproj">
-      <Project>{C6F44C26-5F93-4714-9CB6-239348FE6FE2}</Project>
-      <Name>FlakCore</Name>
+    <ProjectReference Include="..\ggj2014.Core\ggj2014.Core.csproj">
+      <Project>{EDB7AD71-687B-42B9-94AF-B2CFCC864210}</Project>
+      <Name>ggj2014.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj2014", "ggj2014\ggj2014.csproj", "{1D487333-5562-4BDE-A613-EFF37A20C6CA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlakCore", "Flakcore\FlakCore.csproj", "{C6F44C26-5F93-4714-9CB6-239348FE6FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj2014.Windows", "ggj2014.Windows\ggj2014.Windows.csproj", "{1D487333-5562-4BDE-A613-EFF37A20C6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj2014.Core", "ggj2014.Core\ggj2014.Core.csproj", "{EDB7AD71-687B-42B9-94AF-B2CFCC864210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,13 @@ Global
 		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Debug|x86.Build.0 = Debug|x86
 		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Release|x86.ActiveCfg = Release|x86
 		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Release|x86.Build.0 = Release|x86
+		{EDB7AD71-687B-42B9-94AF-B2CFCC864210}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDB7AD71-687B-42B9-94AF-B2CFCC864210}.Debug|x86.Build.0 = Debug|Any CPU
+		{EDB7AD71-687B-42B9-94AF-B2CFCC864210}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDB7AD71-687B-42B9-94AF-B2CFCC864210}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Flakcore\FlakCore.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
