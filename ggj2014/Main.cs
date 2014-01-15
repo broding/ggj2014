@@ -26,11 +26,11 @@ namespace ggj2014
 
 	class AppDelegate : NSApplicationDelegate
 	{
-		Game1 game;
+		Game game;
 
 		public override void FinishedLaunching (MonoMac.Foundation.NSObject notification)
 		{
-			game = new Game1 ();
+			game = new Game ();
 			game.Run ();
 		}
 
