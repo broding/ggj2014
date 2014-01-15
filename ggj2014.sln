@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj2014", "ggj2014\ggj2014.csproj", "{1D487333-5562-4BDE-A613-EFF37A20C6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlakCore", "Flakcore\FlakCore.csproj", "{C6F44C26-5F93-4714-9CB6-239348FE6FE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D487333-5562-4BDE-A613-EFF37A20C6CA}.Debug|x86.ActiveCfg = Debug|x86
+		{1D487333-5562-4BDE-A613-EFF37A20C6CA}.Debug|x86.Build.0 = Debug|x86
+		{1D487333-5562-4BDE-A613-EFF37A20C6CA}.Release|x86.ActiveCfg = Release|x86
+		{1D487333-5562-4BDE-A613-EFF37A20C6CA}.Release|x86.Build.0 = Release|x86
+		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Debug|x86.ActiveCfg = Debug|x86
+		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Debug|x86.Build.0 = Debug|x86
+		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Release|x86.ActiveCfg = Release|x86
+		{C6F44C26-5F93-4714-9CB6-239348FE6FE2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

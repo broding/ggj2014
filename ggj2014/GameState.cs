@@ -1,7 +1,6 @@
 using System;
 using Flakcore.Display;
 using Microsoft.Xna.Framework;
-using C3.XNA;
 using Flakcore;
 using Microsoft.Xna.Framework.Graphics;
 using Flakcore.Display.ParticleEngine;
