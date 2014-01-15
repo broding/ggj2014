@@ -80,4 +80,10 @@
     <BundleResource Include="Content\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Flakcore\FlakCore.csproj">
+      <Project>{C6F44C26-5F93-4714-9CB6-239348FE6FE2}</Project>
+      <Name>FlakCore</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
