@@ -58,4 +58,19 @@
       <HintPath>..\ggj2014.OSX\bin\Debug\MonoMac.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\shaders\.DS_Store" />
+    <None Include="Content\shaders\Dropbox\.DS_Store" />
+    <None Include="Content\shaders\Dropbox\Icon&#xD;" />
+    <None Include="Content\shaders\Dropbox\bumpmap.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\shaders\Dropbox\bumpmap.fx">
+      <DeployService-Deploy>True</DeployService-Deploy>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
