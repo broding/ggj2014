@@ -50,7 +50,8 @@ namespace ggj2014
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            core = new Core(new Vector2(1024, 768), graphics, Content);
+            graphics.IsFullScreen = true;
+            core = new Core(new Vector2(1280, 800), graphics, Content);
             core.SwitchState(new GameState());
             // TODO: use this.Content to load your game content here
         }
