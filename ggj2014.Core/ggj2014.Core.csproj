@@ -58,10 +58,14 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Content\" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Content\fonts\bigFont.spritefont">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\fonts\DefaultFont.spritefont">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Content\shaders\.DS_Store" />
     <None Include="Content\shaders\Dropbox\.DS_Store" />
     <None Include="Content\shaders\Dropbox\Icon&#xD;" />
