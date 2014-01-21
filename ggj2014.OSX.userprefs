@@ -1,19 +1,14 @@
-﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="15-1-2014 12:16:28">
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="21-1-2014 13:37:28">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ggj2014.Core/FlakcoreGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Mono.framework/Versions/3.2.5/lib/mono/4.0/Microsoft.Common.targets">
     <Files>
-      <File FileName="ggj2014.OSX/Main.cs" Line="33" Column="17" />
-      <File FileName="ggj2014.Core/Block.cs" Line="11" Column="14" />
-      <File FileName="ggj2014.Core/Game.cs" Line="1" Column="1" />
-      <File FileName="ggj2014.Core/FlakcoreGame.cs" Line="22" Column="39" />
+      <File FileName="ggj2014.OSX/Main.cs" Line="33" Column="24" />
+      <File FileName="ggj2014.Core/Block.cs" Line="2" Column="7" />
+      <File FileName="ggj2014.Core/Game.cs" Line="25" Column="1" />
+      <File FileName="Flakcore/src/Director.cs" Line="1" Column="1" />
+      <File FileName="ggj2014.Core/Game1.cs" Line="15" Column="15" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/3.2.5/lib/mono/4.0/Microsoft.Common.targets" Line="32" Column="22" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="ggj2014.Core" expanded="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -68,24 +68,36 @@
     <Reference Include="System.Drawing" />
     <Reference Include="MonoMac" />
     <Reference Include="MonoGame.Framework">
-      <HintPath>..\..\Git Repositories\Flakcore\libs\MonoGame.Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="C3.XNA.Primitives2D">
-      <HintPath>C3.XNA.Primitives2D.dll</HintPath>
+      <HintPath>..\..\..\..\Library\Application Support\XamarinStudio-4.0\LocalInstall\Addins\MonoDevelop.MonoGame.3.0.1\assemblies\MacOS\MonoGame.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Info.plist" />
+    <Compile Include="..\ggj2014.Core\Block.cs">
+      <Link>Block.cs</Link>
+    </Compile>
+    <Compile Include="..\ggj2014.Core\GameState.cs">
+      <Link>GameState.cs</Link>
+    </Compile>
+    <Compile Include="..\ggj2014.Core\Player.cs">
+      <Link>Player.cs</Link>
+    </Compile>
+    <Compile Include="..\ggj2014.Core\obj\Debug\.NETFramework,Version=v4.0.AssemblyAttribute.cs">
+      <Link>obj\Debug\.NETFramework,Version=v4.0.AssemblyAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\ggj2014.Core\Game.cs">
+      <Link>Game.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\ggj2014.Core\ggj2014.Core.csproj">
-      <Project>{EDB7AD71-687B-42B9-94AF-B2CFCC864210}</Project>
-      <Name>ggj2014.Core</Name>
+    <ProjectReference Include="..\Flakcore\FlakCore.csproj">
+      <Project>{C6F44C26-5F93-4714-9CB6-239348FE6FE2}</Project>
+      <Name>FlakCore</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Info.plist" />
   </ItemGroup>
 </Project>
