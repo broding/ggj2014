@@ -99,5 +99,11 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Info.plist" />
+    <BundleResource Include="..\ggj2014.Core\Content\logo.png">
+      <Link>Content\logo.png</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
 </Project>
